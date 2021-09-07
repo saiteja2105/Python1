@@ -6,6 +6,7 @@
 import pandas as pd
 import regex as re
 import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from collections import Counter
 from wordcloud import WordCloud
